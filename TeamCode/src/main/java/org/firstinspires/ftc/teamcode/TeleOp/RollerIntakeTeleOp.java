@@ -4,7 +4,8 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.subsystems.RollerIntake;
 
-@TeleOp(name = "Roller Intake TeleOp", group = "TeleOp")
+@TeleOp
+        (name = "Roller Intake TeleOp", group = "TeleOp")
 public class RollerIntakeTeleOp extends OpMode {
     private RollerIntake rollerIntake;
 

@@ -6,7 +6,8 @@ import org.firstinspires.ftc.teamcode.subsystems.Drivetrain;
 import org.firstinspires.ftc.teamcode.subsystems.Lifter;
 import org.firstinspires.ftc.teamcode.subsystems.RollerIntake;
 
-@TeleOp(name = "Single Gamepad TeleOp", group = "TeleOp")
+@TeleOp
+        (name = "Single Gamepad TeleOp", group = "TeleOp")
 public class cycleTeleOp extends OpMode {
     // Subsystem declarations
     private Drivetrain drivetrain;

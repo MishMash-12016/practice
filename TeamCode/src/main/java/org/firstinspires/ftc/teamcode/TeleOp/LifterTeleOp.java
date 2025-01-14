@@ -5,7 +5,9 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import org.firstinspires.ftc.teamcode.subsystems.Lifter;
 
-@TeleOp(name = "Lifter TeleOp", group = "TeleOp")
+@TeleOp
+        (name = "Lifter TeleOp", group = "TeleOp")
+
 public class LifterTeleOp extends LinearOpMode {
     private Lifter lifter;
 
