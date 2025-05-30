@@ -5,6 +5,7 @@ import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 public class RollerIntake extends SubsystemBase {
+
     private CRServo leftServo;  // Servo on Control Hub
     private CRServo rightServo; // Servo on Expansion Hub
 
